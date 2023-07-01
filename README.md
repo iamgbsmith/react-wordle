@@ -33,7 +33,7 @@ cd react-wordle
 yarn install
 ```
 
-Star the app:
+Start the app:
 
 ```shell
 yarn start
