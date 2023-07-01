@@ -16,7 +16,7 @@ const Game:React.FC = () => {
 
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-      <GlobalStyles/>
+      <GlobalStyles theme={darkMode ? darkTheme : lightTheme}/>
       <FontStyles/>
       <GameWrapper>
         <Header/>
